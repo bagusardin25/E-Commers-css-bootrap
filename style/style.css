@@ -22,9 +22,14 @@
       padding: 1rem 0;
     }
 
-    .navbar-brand {
+    .navbar-container {
       font-weight: 700;
       color: var(--primary-color) !important;
+    }
+    .navbar-brand img {
+      width: 40px;
+      height: auto;
+      border-radius: 6px;
     }
 
     .nav-link {
