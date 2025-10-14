@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail eBook Self Improvement</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <style>
+    :root {
+      --primary-color: #ffce00;
+      --dark-bg: #1a1a1a;
+      --light-text: #f5f5f5;
+      --border-radius: 12px;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--dark-bg);
+      color: var(--light-text);
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background: rgba(26, 26, 26, 0.8);
+      backdrop-filter: blur(10px);
+      padding: 1rem 0;
+    }
+    .navbar-brand {
+      font-weight: 700;
+      color: var(--light-text) !important;
+    }
+    .navbar-brand img {
+      width: 40px;
+      height: 40px;
+      border-radius: 6px;
+      object-fit: cover;
+      margin-right: 8px;
+    }
+    .nav-link {
+      font-weight: 400;
+      transition: color 0.3s ease;
+    }
+    .nav-link:hover,
+    .nav-link.active {
+      color: var(--primary-color) !important;
+    }
+    .product-detail-section {
+      padding: 8rem 0 4rem 0;
+    }
+    .product-image img {
+      width: 100%;
+      max-width: 380px;
+      border-radius: var(--border-radius);
+      object-fit: cover;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+    .price {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+    .original-price {
+      text-decoration: line-through;
+      color: #777;
+      margin-left: 1rem;
+    }
+    .btn-whatsapp {
+      background-color: #25D366;
+      color: white;
+      font-weight: 600;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+    }
+    .btn-whatsapp:hover {
+      background-color: #00c24a;
+      transform: translateY(-3px);
+    }
+    footer {
+      background-color: #111;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    .btn-social {
+      color: var(--light-text);
+      font-size: 1.5rem;
+      margin: 0 0.5rem;
+      transition: color 0.3s ease;
+      text-decoration: none;
+    }
+    .btn-social:hover {
+      color: var(--primary-color);
+    }
+    @media (max-width: 768px) {
+      .price {
+        font-size: 1.8rem;
+      }
+      .product-detail-section {
+        padding: 6rem 0 3rem 0;
+      }
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="/index.html#e-book1">
+        <img src="/Gallery/logo1.png" alt="Logo">
+        Detail e-Book Agama Islam
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html#e-book1">
+              <i class="fas fa-arrow-left me-2"></i>Kembali ke Beranda
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Product Detail Section -->
+  <section class="product-detail-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 text-center">
+          <div class="product-image">
+            <img src="../Gallery/20+ E-book Agama Islam.png" alt="eBook Self Improvement">
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <span class="badge bg-warning text-dark mb-2">DISKON 33%</span>
+          <h1 class="display-6 fw-bold">20+ E-book Agama Islam</h1>
+          <p class="lead text-white-50">
+            Paket lengkap e-book Islami yang berisi kumpulan bacaan inspiratif seputar akhlak, ibadah, sejarah Islam, dan motivasi spiritual.
+          </p>
+
+          <div class="d-flex align-items-center my-4">
+            <div class="price">Rp 40.000</div>
+            <div class="original-price fs-5">Rp 60.000</div>
+          </div>
+
+          <h5 class="fw-bold mt-4">Isi utama: </h5>
+          <ul class="list-unstyled mt-3">
+            <li><i class="fas fa-check-circle text-success me-2"></i> Panduan ibadah harian sesuai sunnah.</li>
+            <li><i class="fas fa-check-circle text-success me-2"></i> Penjelasan makna dzikir dan doa.</li>
+            <li><i class="fas fa-check-circle text-success me-2"></i> Kisah inspiratif para sahabat.</li>
+            <li><i class="fas fa-check-circle text-success me-2"></i> E-book motivasi Islami untuk menjaga semangat beramal.</li>
+          </ul>
+
+          <div class="mt-4">
+            <a href="https://wa.me/6281216141167" target="_blank" class="btn btn-whatsapp btn-lg">
+              <i class="fab fa-whatsapp me-2"></i>Beli Sekarang via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-5">
+    <div class="container text-center">
+      <div class="mb-2">
+        <a href="#" class="btn-social"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="btn-social"><i class="fab fa-tiktok"></i></a>
+        <a href="#" class="btn-social"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <p class="mb-0 text-white-50">&copy; 2025 Onemanshow Store. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
