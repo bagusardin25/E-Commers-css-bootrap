@@ -13,8 +13,6 @@
       color: var(--light-text);
       scroll-behavior: smooth;
     }
-    
-    /* Navbar Styling */
     .navbar {
       background: rgba(26, 26, 26, 0.8);
       backdrop-filter: blur(10px);
@@ -56,7 +54,6 @@
         transform: translateY(-2px);
     }
     
-    /* Section Heading */
     .section-title {
         font-weight: 700;
         margin-bottom: 3rem;
@@ -75,38 +72,63 @@
         background-color: var(--primary-color);
         border-radius: 2px;
     }
-
-    /* Carousel */
-    .carousel-item {
-      height: 90vh;
-      min-height: 400px;
+    .carousel-item { 
+      height: 90vh; 
+      min-height: 400px; 
     }
-
-    .carousel-item img {
-      height: 100%;
-      object-fit: cover;
-      filter: brightness(0.5);
+    .carousel-item img { 
+      height: 100%; 
+      object-fit: cover; 
+      filter: brightness(0.5); 
     }
-    
     .carousel-caption {
-      bottom: 20%;
+      bottom: 20%; 
       background: rgba(0, 0, 0, 0.4);
-      padding: 2rem;
+      padding: 2rem; 
       border-radius: var(--border-radius);
     }
-    
-    .carousel-caption h5 {
-        font-size: 3rem;
-        font-weight: 700;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    .carousel-caption h5 { 
+      font-size: 3rem; 
+      font-weight: 700; 
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
     }
-    
-    .carousel-caption p {
-        font-size: 1.2rem;
-        font-weight: 300;
+    .carousel-caption p { 
+      font-size: 1.2rem; 
+      font-weight: 300; }
+    .carousel,
+    .carousel-item,
+    .carousel-img {
+      height: 100vh;
+    }
+    .carousel-img {
+      object-fit: cover;
+    }
+    .carousel-caption {
+      bottom: 20%;
     }
 
-    /* Product Cards */
+    .carousel-caption h2 {
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .carousel-caption p {
+      font-size: 1.1rem;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Responsif untuk layar kecil */
+    @media (max-width: 768px) {
+      .carousel-caption {
+        bottom: 15%;
+      }
+      .carousel-caption h2 {
+        font-size: 1.6rem;
+      }
+      .carousel-caption p {
+        font-size: 0.9rem;
+      }
+    }
     .product-card {
       background: var(--card-bg);
       border: 1px solid rgba(255, 255, 255, 0.1);
@@ -150,8 +172,6 @@
     .btn-buy:hover {
         background: #2980b9;
     }
-
-    /* Testimonial Section */
     .testimonial-card {
         background: #2c2c2c;
         padding: 2rem;
@@ -179,8 +199,7 @@
         margin-top: 1rem;
         color: var(--light-text);
     }
-    
-    /* Contact & Footer */
+
     #kontak, footer {
         background-color: #111;
     }
